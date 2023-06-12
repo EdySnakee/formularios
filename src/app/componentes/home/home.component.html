@@ -1,0 +1,123 @@
+<div id="in" class="">
+ <div class="container card shadow center mt-3" style="width: 68rem;">
+  <h1 class="text-center mt-2 mb-2">Inputs Basic</h1>
+
+  <form class="row g-3 p-5 ">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Correo</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Dirección</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Calle siempre viva">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Comentarios Adicionales</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, studio o oficina">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Estado</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Mérida</option>
+        <option>Guerrero</option>
+        <option>Ebriedad</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">ZipCode</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Aceptar terminos
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar formulario</button>
+    </div>
+  </form>
+  </div>
+
+
+  <div class="mt-5 shadow container card text-center">
+    <div class="card-header">
+      Extras
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Ejemplo 'Range'</h5>
+      <input  type="range" class="form-range" id="customRange1">
+      <div class="m-2 btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="btnradio1">Select 1</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-danger" for="btnradio2">Select 2</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio3">Select 3</label>
+      </div><br>
+      <a href="#" class="m-2 btn btn-info"data-bs-toggle="modal"data-bs-target="#exampleModal">Go Modal</a>
+    </div>
+    <div class="card-footer text-body-secondary">
+      2 days ago
+    </div>
+  </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Grid</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="color: whitesmoke; background-color: rgba(255, 235, 205, 0.351);">
+          <div class="container-fluid">
+            <div  class="row">
+              <div style="background-color: rgba(137, 43, 226, 0.468);" class="col-md-4">.col-md-4</div>
+              <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-md-3 ms-auto">.col-md-3 .ms-auto</div>
+              <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-sm-9">
+                Level 1: .col-sm-9
+                <div class="row">
+                  <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-8 col-sm-6">
+                    Level 2: .col-8 .col-sm-6
+                  </div>
+                  <div style="background-color: rgba(137, 43, 226, 0.468);"class="col-4 col-sm-6">
+                    Level 2: .col-4 .col-sm-6
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+
